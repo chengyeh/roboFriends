@@ -8,7 +8,7 @@ import './App.css';
 import { setSearchField } from '../actions';
 
 const mapStateToProps = state => ({
-	searchfield: state.searchfield
+	searchfield: state.searchRobots.searchfield
 });
 
 const mapDispatchToProps = dispatch => ({
